@@ -2,32 +2,120 @@
 <html lang="id">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Tugas Layout Sederhana</title>
-    <link rel="stylesheet" href="stylee.css">
+    <title>Tubes Jaringan Komputer</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f6f8;
+            margin: 0;
+            padding: 0;
+        }
+        .container {
+            width: 80%;
+            margin: auto;
+            background-color: white;
+            padding: 20px;
+        }
+        h1, h2 {
+            color: #2c3e50;
+        }
+        img {
+            border-radius: 10px;
+            margin-top: 10px;
+        }
+        .box {
+            background-color: #ecf0f1;
+            padding: 15px;
+            border-radius: 8px;
+            margin-bottom: 20px;
+        }
+        a {
+            color: #2980b9;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        a:hover {
+            text-decoration: underline;
+        }
+        footer {
+            text-align: center;
+            margin-top: 30px;
+            color: gray;
+        }
+    </style>
 </head>
 <body>
-    <header>
-        <h1>Judul Halaman Web</h1>
-        <nav>
-            <a href="#">Beranda</a>
-            <a href="#">Tentang Kami</a>
-            <a href="#">Kontak</a>
-        </nav>
-    </header>
-    <div style="height: 150px;"></div>
 
-    <main>
-        <h2>Konten Utama/Artikel</h2>
+<div class="container">
 
-        <div class="content-block">
-            <img src="kucinglucu.jpeg" alt="Gambar Contoh"class="floating image"width="250"> <br>
-            <p>ini untuk mengisi konten utama, artikel atau informasi inti lainnya.</p>
-        <p>mengisi ruang tersisa antara header dan footer</p>
-    </main>
+    <h1>Tugas Besar Jaringan Komputer</h1>
+    <h2>Arsitektur dan Jaringan Komputer</h2>
+
+    <!-- IDENTITAS MAHASISWA -->
+    <div class="box">
+        <h2>Identitas Mahasiswa</h2>
+        <p><b>Nama</b> : LISKA ANINDYA PRATISTA</p>
+        <p><b>NIM</b> : 607012500107</p>
+        <p><b>Kelas</b> : 49-03</p>
+        <p><b>Mata Kuliah</b> : Jaringan Komputer</p>
+    </div>
+
+    <!-- FOTO MAHASISWA -->
+    <div class="box">
+        <h2>Foto Mahasiswa</h2>
+        <img src="liskalatarmerah.jpeg" width="300" alt="Foto Mahasiswa">
+        <p>Foto kegiatan mahasiswa</p>
+    </div>
+
+    <!-- MATERI PERANGKAT JARINGAN -->
+    <div class="box">
+        <h2>Perangkat Jaringan Komputer</h2>
+        <h3>Router</h3>
+        <img src="router.jpeg" width="300">
+
+        <p><b>Pengertian Router</b></p>
+        <p>
+            Router adalah perangkat jaringan yang berfungsi untuk menghubungkan 
+            dua atau lebih jaringan komputer yang berbeda serta mengatur lalu lintas data.
+        </p>
+
+        <p><b>Fungsi Router</b></p>
+        <ul>
+            <li>Menghubungkan jaringan yang berbeda</li>
+            <li>Mengatur lalu lintas data</li>
+            <li>Menyediakan akses internet</li>
+        </ul>
+
+        <p><b>Jenis-Jenis Router</b></p>
+        <ul>
+            <li>Router Kabel</li>
+            <li>Router Wireless</li>
+            <li>Router Core</li>
+        </ul>
+
+        <p><b>Sumber:</b> 
+            <a href="https://id.wikipedia.org/wiki/Router" target="_blank">
+                Wikipedia - Router
+            </a>
+        </p>
+    </div>
+
+    <!-- LAMPIRAN FILE PDF -->
+    <div class="box">
+        <h2>Lampiran File Tutorial</h2>
+        <p>
+            <a href="Tutorial HostingWeb.pdf" target="_blank">📄 Download Tutorial Hosting Web</a>
+        </p>
+        <p>
+            <a href="isi_website.pdf" target="_blank">📄 Download Tutorial Isi Website</a>
+        </p>
+    </div>
 
     <footer>
-        <p>&copy; 2025 Layout Sederhana. Hak Cipta Dilindungi.</p>
+        <p>Website Tubes Jaringan Komputer ©️ 2024</p>
     </footer>
+
+</div>
+
 </body>
 </html>
